@@ -25,6 +25,12 @@ body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.nav{
+  color: rgb(169, 67, 88);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 2em;
+}
+
 .headings{
   color: white;
   margin-top:100px;
@@ -34,7 +40,7 @@ body{
 .text{
   text-align: center;
  font-family: sans-serif;
-  margin: 0px 45%;
+  margin: 0px 40%;
   font-weight: 400;
 }
 .table-hover:hover{

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-const AddContact = () => {
+const Add = () => {
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -72,4 +72,4 @@ const AddContact = () => {
     )
 }
 
-export default AddContact;
+export default Add;

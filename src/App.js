@@ -6,8 +6,8 @@ import { Route, Routes } from 'react-router-dom';
 
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import AddContact from "./components/Add";
-import EditContact from "./components/Edit";
+import Add from "./components/Add";
+import Edit from "./components/Edit";
 import { useDispatch } from "react-redux";
 
 const App = () => {
@@ -41,10 +41,10 @@ const App = () => {
                 <Route exact path="/" element={<Home />}>
 
                 </Route>
-                <Route path="/add" element={<AddContact />}>
+                <Route path="/add" element={<Add />}>
 
                 </Route>
-                <Route path="/edit/:id" element={<EditContact />}>
+                <Route path="/edit/:id" element={<Edit />}>
 
                 </Route>
             </Routes>
