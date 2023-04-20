@@ -59,7 +59,7 @@ const EditContact = () => {
             {
                 currentContact ? (
                     <>
-                        <h1 className='display-3 text-center fw-bold'>Edit Contact {id}</h1>
+                        <h1 className='display-3 text-center fw-bold'><span className='headings'>Edit Contact {id}</span></h1>
                         <div className='row'>
                             <div className='col-md-6 shadow mx-auto p-5'>
                                 <form className='text-center' onSubmit={handelSubmit}>
@@ -76,8 +76,8 @@ const EditContact = () => {
                                             value={number} onChange={e => setNumber(e.target.value)} />
                                     </div>
                                     <div className='form-group mb-3'>
-                                        <input type='submit' value='Update Contact' className='btn btn-dark' />
-                                        <Link to='/' className='btn btn-danger ms-3 '>Cancel</Link>
+                                        <input type='submit' value='Update Contact' className='btn btn-outline-success' />
+                                        <Link to='/' className='btn btn-outline-danger ms-3 '>Cancel</Link>
                                     </div>
                                 </form>
                             </div>

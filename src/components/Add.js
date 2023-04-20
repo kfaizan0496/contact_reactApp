@@ -46,7 +46,7 @@ const AddContact = () => {
 
     return (
         <div className='container'>
-            <h1 className='display-3 text-center fw-bold'>Add Contact</h1>
+            <h1 className='display-3 text-center fw-bold'><span className='headings'>Add Contact</span></h1>
             <div className='row'>
                 <div className='col-md-6 shadow mx-auto p-5'>
                     <form className='text-center' onSubmit={handelSubmit}>
@@ -63,7 +63,7 @@ const AddContact = () => {
                                 value={number} onChange={e => setNumber(e.target.value)} />
                         </div>
                         <div className='form-group mb-3'>
-                            <input type='submit' value='Add Contact' className='btn btn-block btn-dark' />
+                            <input type='submit' value='Add Contact' className='btn btn-outline-success' />
                         </div>
                     </form>
                 </div>

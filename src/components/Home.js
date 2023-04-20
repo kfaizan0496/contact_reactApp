@@ -18,7 +18,8 @@ const Home = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-md-12 my-5 text-end'>
-                    <Link to='/add' className='btn btn-outline-dark'>Add Contact</Link>
+                  <span className='add-button'> Click To Add Contacts</span>  <Link to='/add' className='btn btn-primary btn-lg '>Add Contact &nbsp;
+                  <i class="fa-solid fa-arrow-right"></i>&nbsp;<i class="fa-solid fa-arrow-right"></i></Link>
                 </div>
                 <div className='col-md-10 mx-auto'>
                     <table className='table-hover table table-hover table-success'>
@@ -34,14 +35,14 @@ const Home = () => {
                         <tbody>
                             {
                                 contacts.map((contact, id) => (
-                                    <tr key={id}>
+                                    <tr className='row-name' key={id}>
                                         <td>{id + 1}</td>
-                                        <td>{contact.name}</td>
+                                        <td >{contact.name}</td>
                                         <td>{contact.email}</td>
                                         <td>{contact.number}</td>
                                         <td>
                                             <Link to={`/edit/${contact.id}`} className='btn btn-info me-2'><i class="fa-solid fa-pen-to-square"></i></Link>
-                                            <button type='button' onClick={() => deleteContact(contact.id)} className='btn btn-small btn-danger'><i class="fa-sharp fa-solid fa-trash-can fa-beat"></i></button>
+                                            <button type='button' onClick={() => deleteContact(contact.id)} className="button btn btn-primary"><i class="fa-solid fa-trash"></i></button>
                                         </td>
                                     </tr>
                                 ))
