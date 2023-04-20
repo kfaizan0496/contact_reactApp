@@ -6,12 +6,13 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { configureStore } from 'redux';
-import contactReducer from './redux/reducers/contactReducer';
-import { composeWithDevTools } from 'redux-devtools-extension';
+import contactReducer from './reducer/index';
+import { createStore } from 'redux';
+
+// import { composeWithDevTools } from 'redux-devtools-extension';
 import { Provider } from 'react-redux';
 
-const store = configureStore(contactReducer, composeWithDevTools());
+const store = createStore(contactReducer);
 
 
 

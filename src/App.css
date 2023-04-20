@@ -1,6 +1,21 @@
+body{
+  background-image: linear-gradient(rgb(83, 115, 219),#ccdb49);
+}
+
 .App {
   text-align: center;
 }
+.text{
+  text-align: center;
+ font-family: sans-serif;
+  margin: 0px 45%;
+  font-weight: 400;
+}
+.table-hover:hover{
+  background-color: lightpink;
+
+}
+
 
 .App-logo {
   height: 40vmin;
