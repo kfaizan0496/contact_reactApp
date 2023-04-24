@@ -1,6 +1,27 @@
+App Name:: Contact reactApp
+features:: User can manage your contacts like Add your contact ,Delete ,Update and Read ...
+
+Api::https://jsonplaceholder.typicode.com/users/ 
+user can fetch the contacts from this app and display on app.....
+
+Library used::(a) bootstrap for styling...
+              (b) react-router-dom
+              (c) @reduxjs/toolkit
+              (d) react-redux
+              (e) react-router-dom
+              (f) react-toastify
+![Screenshot (604)](https://user-images.githubusercontent.com/113850768/233931570-c5850620-ac9d-483e-8490-5e69c025f4c7.png)
+![Screenshot (605)](https://user-images.githubusercontent.com/113850768/233931585-18b70419-61e7-4bc6-9453-bd04ea8f8cae.png)
+
+![Screenshot (607)](https://user-images.githubusercontent.com/113850768/233931691-75d3d119-8cf5-4bea-85cc-5dd7d9e35e25.png)
+![Screenshot (608)](https://user-images.githubusercontent.com/113850768/233931715-3b0a4876-a13e-45bd-b926-9a9dd153be0e.png)
+
+![Screenshot (609)](https://user-images.githubusercontent.com/113850768/233931737-f19c4f34-dfa1-48a4-b879-244365fc7578.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot (606)](https://user-images.githubusercontent.com/113850768/233931622-f48bbf27-8f0b-4c39-933c-4cf26c5f683b.png)
 
 ## Available Scripts
 
